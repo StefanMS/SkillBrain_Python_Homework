@@ -12,11 +12,11 @@ print('a%b =' , a%b)
 print('\n')
 
 #Ex2
-L=int(input('cat este lungimea? '))
-l=int(input('Cat este latimea? '))
+lungime=int(input('cat este lungimea? '))
+latime=int(input('Cat este latimea? '))
 
-print('Perimetrul = ', 2*l + 2*L)
-print('Aria = ', L*l)
+print('Perimetrul = ', 2*latime + 2*lungime)
+print('Aria = ', lungime*latime)
 print('\n')
 
 #Ex3
