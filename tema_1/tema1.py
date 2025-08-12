@@ -8,7 +8,7 @@
 # Programul va afișa apoi fiecare variabilă împreună cu tipul acesteia, folosind funcțiile print() și type().
 
 
-nume = input("Care este numele tău? ")
+nume = input("Care este numele tau? ")
 
 varsta = int(input("Ce vârstă ai? (introdu un număr întreg) "))
 
