@@ -1,0 +1,16 @@
+# Tema: Capitolul 1
+# Într-un fișier Python numit tema_capitol_1.py, scrieți un program care să conțină 4 variabile cu valori introduse de utilizator folosind funcția input().
+# În funcția input() trebuie scrise întrebări adresate utilizatorului, pe care să le ajustați astfel încât răspunsurile să corespundă tipurilor variabilelor: una de tip str (text), una convertită cu int(), una cu float() și una cu bool(). 
+# Programul va afișa apoi fiecare variabilă împreună cu tipul acesteia, folosind funcțiile print() și type ().
+# Enunțul temei trebuie scris ca un comentariu la începutul fișierului.
+
+
+
+nume = input("Cum te cheama?")
+print(nume,"-", type(nume))
+varsta = int(input("Cati ani ai?"))
+print(varsta,"-", type(varsta))
+inaltime = float(input("Ce inaltime ai?"))
+print(inaltime,"-", type(inaltime))
+scoala = bool(input("Esti la scoala?"))
+print(scoala,"-", type(scoala))
